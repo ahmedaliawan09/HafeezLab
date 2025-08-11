@@ -99,10 +99,10 @@ const QualityAssurance = () => {
                                     <div className="text-right">
                                         <span
                                             className={`px-3 py-1 rounded-full text-xs font-medium ${cert.status === "Registered" || cert.status === "Certified"
-                                                    ? "bg-green-100 text-green-800"
-                                                    : cert.status === "In Progress"
-                                                        ? "bg-yellow-100 text-yellow-800"
-                                                        : "bg-blue-100 text-blue-800"
+                                                ? "bg-green-100 text-green-800"
+                                                : cert.status === "In Progress"
+                                                    ? "bg-yellow-100 text-yellow-800"
+                                                    : "bg-blue-100 text-blue-800"
                                                 }`}
                                         >
                                             {cert.status}
@@ -148,7 +148,7 @@ const QualityAssurance = () => {
                 {/* Quality Metrics */}
                 <div className="mt-16 grid md:grid-cols-3 gap-8">
                     <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover-lift">
-                        <div className="text-4xl font-bold text-red-600 mb-2">99.9%</div>
+                        <div className="text-4xl font-bold text-red-600 mb-2">99%</div>
                         <div className="text-gray-600">Accuracy Rate</div>
                         <div className="text-sm text-gray-500 mt-2">Based on external quality assessments</div>
                     </div>

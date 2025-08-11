@@ -156,14 +156,11 @@ const Facilities = () => {
                         <div className="text-center">
                             <h4 className="text-lg font-semibold text-gray-900 mb-4">Regular Hours</h4>
                             <div className="space-y-2">
-                                <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                                    <span className="text-gray-600">Monday - Saturday</span>
-                                    <span className="font-medium text-gray-900">8:00 AM - 8:00 PM</span>
+                                <div className="flex justify-between items-center py-8 border-b border-gray-100">
+                                    <span className="text-gray-600">Monday - Sunday</span>
+                                    <span className="font-medium text-gray-900">24hrs</span>
                                 </div>
-                                <div className="flex justify-between items-center py-2 border-b border-gray-100">
-                                    <span className="text-gray-600">Sunday</span>
-                                    <span className="font-medium text-gray-900">9:00 AM - 6:00 PM</span>
-                                </div>
+
                             </div>
                         </div>
 

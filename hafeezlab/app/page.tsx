@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Portfolio from "./pages/portfolio/page"
+import Portfolio from "@/app/Pages/Portfolio/page"
 export default function Home() {
   return (
     <div className="overflow-hidden">

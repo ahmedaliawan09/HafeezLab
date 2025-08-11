@@ -81,15 +81,15 @@ const About = () => {
                 <div className="mt-20 bg-gradient-to-r from-red-600 to-red-700 rounded-3xl p-8 md:p-12">
                     <div className="grid md:grid-cols-4 gap-8 text-center text-white">
                         <div className="animate-fade-in-up">
-                            <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
+                            <div className="text-4xl md:text-5xl font-bold mb-2">2+</div>
                             <div className="text-red-100 text-lg">Years Experience</div>
                         </div>
                         <div className="animate-fade-in-up">
-                            <div className="text-4xl md:text-5xl font-bold mb-2">50K+</div>
+                            <div className="text-4xl md:text-5xl font-bold mb-2">20K+</div>
                             <div className="text-red-100 text-lg">Tests Completed</div>
                         </div>
                         <div className="animate-fade-in-up">
-                            <div className="text-4xl md:text-5xl font-bold mb-2">99.9%</div>
+                            <div className="text-4xl md:text-5xl font-bold mb-2">99%</div>
                             <div className="text-red-100 text-lg">Accuracy Rate</div>
                         </div>
                         <div className="animate-fade-in-up">
@@ -143,7 +143,9 @@ const About = () => {
                             </div>
                         ))}
                     </div>
+
                 </div>
+
             </div>
         </section>
     )
