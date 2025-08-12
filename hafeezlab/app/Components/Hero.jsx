@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="absolute bottom-20 right-10 w-24 h-24 bg-red-200 rounded-full opacity-30 animate-bounce"></div>
             <div className="absolute top-1/2 right-20 w-16 h-16 bg-red-300 rounded-full opacity-40"></div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="relative z-10 max-w-7xl mx-auto px-4 mt-12 sm:px-6 lg:px-8 py-20">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Left Content */}
                     <div className="text-center lg:text-left animate-fade-in-up">
@@ -48,13 +48,19 @@ const Hero = () => {
                             >
                                 Our Services
                             </Button>
-                            <Button
-                                onClick={() => scrollToSection("#contact")}
-                                variant="outline"
-                                className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300"
-                            >
-                                Book Appointment
-                            </Button>
+                            <a href="https://wa.me/923450018111?text=Hello%20I%20need%20help"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group relative"
+                                aria-label="Contact via WhatsApp">
+                                <Button
+
+                                    variant="outline"
+                                    className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300"
+                                >
+                                    Book Appointment
+                                </Button>
+                            </a>
                         </div>
 
                         {/* Quick Contact Info */}
@@ -90,13 +96,13 @@ const Hero = () => {
                             <div className="w-full h-96 bg-gradient-to-br from-red-100 to-red-200 rounded-2xl shadow-2xl flex items-center justify-center hover-lift">
                                 <div className="text-center">
                                     <div className="w-24 h-24 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                        <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                        {/* <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
                                             <path
                                                 fillRule="evenodd"
                                                 d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zm0 4a1 1 0 011-1h12a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1V8zm2 2a1 1 0 000 2h.01a1 1 0 100-2H5zm3 0a1 1 0 000 2h.01a1 1 0 100-2H8zm3 0a1 1 0 000 2h.01a1 1 0 100-2H11z"
                                                 clipRule="evenodd"
                                             />
-                                        </svg>
+                                        </svg> */}
                                     </div>
                                     <p className="text-red-700 font-medium">Laboratory Image Placeholder</p>
                                     <p className="text-red-600 text-sm mt-2">Advanced Diagnostic Equipment</p>

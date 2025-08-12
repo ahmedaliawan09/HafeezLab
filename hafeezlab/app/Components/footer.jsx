@@ -24,7 +24,7 @@ const WhatsAppFooter = () => {
                 </button>
 
                 <a
-                    href="https://wa.me/923167378200?text=Hello%20I%20need%20help"
+                    href="https://wa.me/923450018111?text=Hello%20I%20need%20help"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group relative"

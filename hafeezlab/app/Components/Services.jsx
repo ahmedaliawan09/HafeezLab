@@ -142,12 +142,16 @@ const Services = () => {
                             requirements.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <button className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
-                                Contact Us
-                            </button>
-                            <button className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
-                                View All Tests
-                            </button>
+                            <a href="https://wa.me/923450018111?text=Hello%20I%20need%20help"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group relative"
+                                aria-label="Contact via WhatsApp">
+                                <button className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
+                                    Contact Us
+                                </button>
+                            </a>
+
                         </div>
                     </div>
                 </div>

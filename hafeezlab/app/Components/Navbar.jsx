@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
 import { Button } from "@/app/Components/ui/button"
-
+import Image from "next/image";
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -43,9 +43,14 @@ const Navbar = () => {
                         <div className="w-12 h-12 bg-gradient-red rounded-lg flex items-center justify-center">
                             <span className="text-white font-bold text-xl">HL</span>
                         </div>
-                        <div>
-                            <h1 className="text-xl font-bold text-gray-900">Hafeez Lab</h1>
-                            <p className="text-xs text-gray-600">Excellence in Diagnostics</p>
+                        <div className="flex gap-4" >
+                            <div className="w-8">
+                                <img src="./logo1.png" alt="" />
+                            </div>
+                            <div>
+                                <h1 className="text-xl font-bold text-gray-900">Hafeez Lab</h1>
+                                <p className="text-xs text-gray-600">Excellence in Diagnostics</p>
+                            </div>
                         </div>
                     </div>
 
@@ -61,12 +66,18 @@ const Navbar = () => {
                                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
                             </button>
                         ))}
-                        <Button
-                            onClick={() => scrollToSection("#contact")}
-                            className="gradient-red text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 pulse-red"
-                        >
-                            Book Appointment
-                        </Button>
+                        <a href="https://wa.me/923450018111?text=Hello%20I%20need%20help"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group relative"
+                            aria-label="Contact via WhatsApp">
+                            <Button
+
+                                className="gradient-red text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 pulse-red"
+                            >
+                                Book Appointment
+                            </Button>
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
